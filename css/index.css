@@ -1,0 +1,123 @@
+@media screen and (max-height:1788px) { 
+body
+
+{ margin-top: -132px; }
+#overall_mask
+
+{ margin-top: -132px; }
+}
+body{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+#overall_mask{
+  position: absolute;
+  width: 1080px;
+    height: 1788px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 4;
+}
+
+#mainBanner{
+  position: absolute;
+  z-index: 1;
+  overflow-x: hidden;
+    width: 1080px;
+    height: 1788px;
+
+}
+ #lowerroom{
+  position: absolute;
+  opacity: 1;
+  z-index: 2;
+ width: 1080px; 
+     top:134px;
+}
+
+ #text1{
+  position: absolute;
+  opacity: 1;
+  z-index: 3;
+  left: 60px;
+  top: 614px;
+
+}
+ #waitingroom{
+  position: absolute;
+  opacity: 1;
+  z-index: 2;
+ right: 0;
+  top: 134px;
+}
+ #dot{
+  position: absolute;
+  opacity: 1;
+  z-index: 4;
+  left: 560px;
+  top: 1212px;
+ width: 50px;
+height: 40px;
+}
+ #dot1{
+  position: absolute;
+  opacity: 1;
+  z-index: 2;
+  left: 369px;
+  top: 134px;
+     height: 1080px;
+   
+}
+  #text2{
+  position: absolute;
+  opacity: 1;
+  z-index: 4;
+  right: 55px;
+  top: 215px;
+width: 380px; 
+}  
+ #heart{
+  position: absolute;
+  opacity: 1;
+  z-index: 4;
+  left: 100px;
+  top: 210px;
+}
+ #heart1{
+  position: absolute;
+  opacity: 1;
+  z-index: 4;
+  left: 180px;
+  top: 270px;
+     width: 258px;
+     height: 392px;
+}
+ #heart2{
+  position: absolute;
+  opacity: 1;
+  z-index: 4;
+  left: 160px;
+  top: 270px;
+     width: 318px;
+     height: 392px;
+}
+.mask {
+    position: absolute;
+    top: 80px;
+    left: 520px;
+    width: 100px; 
+    height: 1125px;
+    z-index: 5;
+    background-repeat: no-repeat;
+    animation: showDiag 5s linear forwards;
+    animation-delay: 10s;
+}
+
+@keyframes showDiag {
+    from {  top: 0; }
+    to {  top: -1000px; }
+}
